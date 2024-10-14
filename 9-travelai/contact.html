@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<body class="no-sidebar is-preload">
+
+<div id="page-wrapper">
+
+	<!-- Header -->
+	<div id="header">
+
+		<!-- Inner -->
+		<div class="inner">
+			<header>
+			</header>
+		</div>
+
+		<!-- Nav -->
+		<nav id="nav" >
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutUs.html">About Us</a></li>
+				<li><a href="destinations.html">Destinations</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="termsAndConditions.html">Terms And Conditions</a></li>
+			</ul>
+		</nav>
+
+	</div>
+</div>
+</body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<title>Culture Cruise - Contact Us</title>
+
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d4f44;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #0073e6;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .contact-info h3 {
+            color: #005bb5;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-form {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+            font-size: 1em;
+            transition: border-color 0.2s ease-in-out;
+        }
+
+        .contact-form input[type="text"]:focus,
+        .contact-form input[type="email"]:focus,
+        .contact-form textarea:focus {
+            border-color: #0073e6;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            height: 100px;
+        }
+
+        .contact-form input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #005bb5;
+        }
+
+        .map {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .map iframe {
+            width: 100%;
+            height: 400px;
+            border: 0;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 600px) {
+            .map iframe {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+	<h2>Contact Us</h2>
+	<div class="contact-info">
+		<h3>Get in Touch</h3>
+		<p>
+			We would love to hear from you! Whether you have a question about our tours, need assistance with booking, or just want to share your travel experiences, feel free to reach out to us.
+		</p>
+		<p>
+			<strong>Email:</strong> support@culturecruise.com<br>
+			<strong>Phone:</strong> +1 (555) 123-4567<br>
+			<strong>Address:</strong> 123 Adventure Lane, Travel City, USA
+		</p>
+	</div>
+
+	<div class="contact-form">
+		<h3>Send Us a Message</h3>
+		<form action="send_message.php" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="subject">Subject:</label>
+			<input type="text" id="subject" name="subject" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Send Message">
+		</form>
+	</div>
+
+	<div class="map">
+		<h3>Our Location</h3>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373631550495!3d-37.817209979751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43f1b1a1b7%3A0x5045675218ce7e33!2sFederation%20Square%2C%20Melbourne%20VIC%203000%2C%20Australia!5e0!3m2!1sen!2sus!4v1621331472285!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.dropotron.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
